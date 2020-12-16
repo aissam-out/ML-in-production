@@ -73,7 +73,7 @@ Thanks to [Heroku](https://www.heroku.com/) we will be able to deploy our applic
 
 **6.** You can finally open up your Heroku application through the command `# heroku open --app <app-name>`
 
-#### Contact
+# Contact
 
 Link to the related article in Towards Data Science [HERE](https://towardsdatascience.com/machine-learning-in-production-keras-flask-docker-and-heroku-933b5f885459)
 
