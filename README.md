@@ -72,3 +72,9 @@ Thanks to [Heroku](https://www.heroku.com/) we will be able to deploy our applic
 **5.** Build the image based on your Dockefile and push it to this particular app in Heroku `# heroku container:push web --app <app-name>`
 
 **6.** You can finally open up your Heroku application through the command `# heroku open --app <app-name>`
+
+#### Contact
+
+Link to the related article in Towards Data Science [HERE](https://towardsdatascience.com/machine-learning-in-production-keras-flask-docker-and-heroku-933b5f885459)
+
+Link to Twitter account [HERE](https://twitter.com/aissam_out)
