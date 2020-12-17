@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
+# if you encounter dependency issues using 'pip install flask-uploads'
+# try 'pip install Flask-Reuploaded' 
 from flask_uploads import UploadSet, configure_uploads, IMAGES
-
 from keras.preprocessing.image import load_img
 # the pretrained model
 from model import process_image, predict_class
