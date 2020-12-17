@@ -8,6 +8,9 @@ from keras.applications.vgg19 import decode_predictions
 model = tf.keras.models.load_model('./weights/my_model.h5', compile=False)
 
 def process_image(image):
+    '''
+    Make an image ready-to-use by VGG19
+    '''
     # convert the image pixels to a numpy array
     image = img_to_array(image)
     # reshape data for the model
@@ -18,6 +21,9 @@ def process_image(image):
     return image
 
 def predict_class(image):
+    '''
+    Predict and render the class of a given image 
+    '''
     # predict the probability across all output classes
     yhat = model.predict(image)
     # convert the probabilities to class labels
